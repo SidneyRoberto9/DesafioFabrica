@@ -12,7 +12,7 @@ public class DesafioFabrica {
 
     @Before
     public void inicializar(){
-        System.setProperty("webdriver.gecko.driver", "C:/Driver/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "src/test/firefox/geckodriver.exe");
         driver = new FirefoxDriver();
         driver.get("https://testpages.herokuapp.com/styled/basic-html-form-test.html");
     }
